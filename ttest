@@ -1,0 +1,228 @@
+[16030896.023790] kjournald starting.  Commit interval 5 seconds
+[16030896.024012] EXT3 FS on sdb11, internal journal
+[16030896.024018] EXT3-fs: mounted filesystem with writeback data mode.
+[16030898.278660] tc [2 /Packet/ac/module/tc/drv/ac_tc_stat.c:1042] 	tc flux stats start,line num:2!
+[16030898.278674] [/Packet/ac/module/ipctcalls/drv/ipctcall.c:169] ipctcall_unregister: nProc(10), init((null)) destroy(ffffffffa0fade80)
+[16030898.346200] tc [2 /Packet/ac/module/tc/drv/ac_tc_htb.c:2222] 	tc driver stop ...
+[16030898.347555] [/Packet/ac/module/ipctcalls/drv/ipctcall.c:136] ipctcall_register: nProc(11), init((null)) destroy(ffffffffa0fade80)
+[16030898.348874] tc [2 /Packet/ac/module/tc/drv/ac_tc_htb.c:2261] 	tc driver start ...
+[16030899.050424] set mirror_ports: ndev = 0
+[16030899.109444] action: delete
+[16030899.109446] type: dnat
+[16030899.109448] priority: 0
+[16030899.109450] mark: 12
+[16030899.109452] indev: veth.0
+[16030899.109454] protocol 0
+[16030899.109458] Nat target:iprange 1.1.1.1-1.1.1.1,port 0-0
+[16030899.118441] action: delete
+[16030899.118444] type: dnat6
+[16030899.118446] priority: 0
+[16030899.118448] mark: 12
+[16030899.118450] indev: veth.0
+[16030899.118452] protocol 0
+[16030899.118456] Nat target:iprange 1::1-1::1,port 0-0
+[16030899.125449] action: add
+[16030899.125451] type: dnat
+[16030899.125452] priority: 0
+[16030899.125453] mark: 12
+[16030899.125454] indev: veth.0
+[16030899.125455] protocol 0
+[16030899.125457] Nat target:iprange 1.1.1.1-1.1.1.1,port 0-0
+[16030899.126476] action: add
+[16030899.126477] type: dnat6
+[16030899.126478] priority: 0
+[16030899.126479] mark: 12
+[16030899.126480] indev: veth.0
+[16030899.126481] protocol 0
+[16030899.126483] Nat target:iprange 1::1-1::1,port 0-0
+[16030902.203034] actrace [1 /Packet/ac/module/actrace/driver/trace_config.c:369] 	can't stop trace driver when it's stopped!
+[16030902.208083] actrace [2 /Packet/ac/module/actrace/driver/trace_config.c:504] 	trace_config - set pritype priority config: 1 items
+[16030902.211695] actrace [2 /Packet/ac/module/actrace/driver/trace_config.c:509] 	trace_config - clear apptype priority config
+[16030902.211771] actrace [2 /Packet/ac/module/actrace/driver/trace_config.c:400] 	url reduce mode=1
+[16030902.212359] actrace [2 /Packet/ac/module/actrace/driver/trace_config.c:359] 	trace driver started, type_count = 255!
+[16030902.435443] trust_user_list count: 0
+[16030902.435445] 
+[16030902.435446] trust_group_list count: 0
+[16030902.435447] 
+[16030902.435448] After sorted: 
+[16030902.435449] trust_user_list count: 0
+[16030902.435450] 
+[16030902.435450] trust_group_list count: 0
+[16030902.435451] 
+[16030902.438724] terminal [2 /Packet/ac/module/wireless/drv/ti_aux.c:3144] 	Enter ti_turn_off_ui_identify
+[16030907.037672] proxychk [2 /Packet/ac/module/proxycheck/drv/proxy_check.c:4551] 	call start proxy driver 
+[16030907.038233] proxychk [2 /Packet/ac/module/proxycheck/drv/proxy_check.c:4528] 	stop proxy check driver 
+[16030907.079083] proxycheck /Packet/ac/module/proxycheck/drv/mwm.c:213 free all patterns in list.
+[16030907.079087] proxycheck /Packet/ac/module/proxycheck/drv/mwm.c:224 free res finished.
+[16030907.079090] proxycheck /Packet/ac/module/proxycheck/drv/mwm.c:213 free all patterns in list.
+[16030907.079094] proxycheck /Packet/ac/module/proxycheck/drv/mwm.c:224 free res finished.
+[16030907.079097] proxycheck /Packet/ac/module/proxycheck/drv/mwm.c:213 free all patterns in list.
+[16030907.079100] proxycheck /Packet/ac/module/proxycheck/drv/mwm.c:224 free res finished.
+[16030907.079103] proxycheck /Packet/ac/module/proxycheck/drv/mwm.c:213 free all patterns in list.
+[16030907.079107] proxycheck /Packet/ac/module/proxycheck/drv/mwm.c:224 free res finished.
+[16030907.079109] proxycheck /Packet/ac/module/proxycheck/drv/mwm.c:213 free all patterns in list.
+[16030907.079112] proxycheck /Packet/ac/module/proxycheck/drv/mwm.c:224 free res finished.
+[16030907.079116] proxycheck /Packet/ac/module/proxycheck/drv/mwm.c:213 free all patterns in list.
+[16030907.079121] proxycheck /Packet/ac/module/proxycheck/drv/mwm.c:224 free res finished.
+[16030907.079123] proxycheck /Packet/ac/module/proxycheck/drv/mwm.c:213 free all patterns in list.
+[16030907.079127] proxycheck /Packet/ac/module/proxycheck/drv/mwm.c:224 free res finished.
+[16030907.079129] proxycheck /Packet/ac/module/proxycheck/drv/mwm.c:213 free all patterns in list.
+[16030907.079133] proxycheck /Packet/ac/module/proxycheck/drv/mwm.c:224 free res finished.
+[16030907.079136] proxycheck /Packet/ac/module/proxycheck/drv/mwm.c:213 free all patterns in list.
+[16030907.079139] proxycheck /Packet/ac/module/proxycheck/drv/mwm.c:224 free res finished.
+[16030907.079141] proxycheck /Packet/ac/module/proxycheck/drv/mwm.c:213 free all patterns in list.
+[16030907.079145] proxycheck /Packet/ac/module/proxycheck/drv/mwm.c:224 free res finished.
+[16030907.079147] proxycheck /Packet/ac/module/proxycheck/drv/mwm.c:213 free all patterns in list.
+[16030907.079150] proxycheck /Packet/ac/module/proxycheck/drv/mwm.c:224 free res finished.
+[16030907.079153] proxycheck /Packet/ac/module/proxycheck/drv/mwm.c:213 free all patterns in list.
+[16030907.079155] proxycheck /Packet/ac/module/proxycheck/drv/mwm.c:224 free res finished.
+[16030907.079158] proxycheck /Packet/ac/module/proxycheck/drv/mwm.c:213 free all patterns in list.
+[16030907.079161] proxycheck /Packet/ac/module/proxycheck/drv/mwm.c:224 free res finished.
+[16030907.079163] proxycheck /Packet/ac/module/proxycheck/drv/mwm.c:213 free all patterns in list.
+[16030907.079166] proxycheck /Packet/ac/module/proxycheck/drv/mwm.c:224 free res finished.
+[16030907.079168] proxycheck /Packet/ac/module/proxycheck/drv/mwm.c:213 free all patterns in list.
+[16030907.079171] proxycheck /Packet/ac/module/proxycheck/drv/mwm.c:224 free res finished.
+[16030907.079174] proxycheck /Packet/ac/module/proxycheck/drv/mwm.c:213 free all patterns in list.
+[16030907.079176] proxycheck /Packet/ac/module/proxycheck/drv/mwm.c:224 free res finished.
+[16030907.079179] proxycheck /Packet/ac/module/proxycheck/drv/mwm.c:213 free all patterns in list.
+[16030907.079182] proxycheck /Packet/ac/module/proxycheck/drv/mwm.c:224 free res finished.
+[16030907.079184] proxycheck /Packet/ac/module/proxycheck/drv/mwm.c:213 free all patterns in list.
+[16030907.079187] proxycheck /Packet/ac/module/proxycheck/drv/mwm.c:224 free res finished.
+[16030907.079575] proxychk [2 /Packet/ac/module/proxycheck/drv/proxy_check.c:4551] 	call start proxy driver 
+[16030907.079615] proxychk [2 /Packet/ac/module/proxycheck/drv/proxy_check.c:4528] 	stop proxy check driver 
+[16030907.084540] proxychk [2 /Packet/ac/module/proxycheck/drv/proxy_check.c:4551] 	call start proxy driver 
+[16030907.084570] proxychk [2 /Packet/ac/module/proxycheck/drv/proxy_check.c:4528] 	stop proxy check driver 
+[16030907.090375] proxychk [2 /Packet/ac/module/proxycheck/drv/proxy_check.c:4551] 	call start proxy driver 
+[16030907.090401] proxychk [2 /Packet/ac/module/proxycheck/drv/proxy_check.c:4528] 	stop proxy check driver 
+[16030907.104243] proxychk [2 /Packet/ac/module/proxycheck/drv/proxy_check.c:4551] 	call start proxy driver 
+[16030907.106222] trust_user_list count: 0
+[16030907.106223] 
+[16030907.106224] trust_group_list count: 2
+[16030907.106225] 	446593013071549910
+[16030907.106226] 	17781512465480008766
+[16030907.106227] 
+[16030907.106228] proxychk [2 /Packet/ac/module/proxycheck/drv/proxy_check.c:4528] 	stop proxy check driver 
+[16030907.111872] proxychk [2 /Packet/ac/module/proxycheck/drv/proxy_check.c:4551] 	call start proxy driver 
+[16030908.179911] dns_hijack [2 /Packet/ac/module/dns_hijack/drv/dns_hijack.c:128] 	dns_hijack, ssl_port = 443
+[16030909.356270] forbidden 1, keepalive 1, day_dream 0, alive_interval 60
+[16030909.356279] set g_forbidden = 0.
+^Sun Mar 11 04:12:05 CST 2018
+[16031066.323690] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+^Sun Mar 11 04:15:01 CST 2018
+[16031502.437055] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+[16031503.046905] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+^Sun Mar 11 04:22:02 CST 2018
+[16031819.789628] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+^Sun Mar 11 04:27:01 CST 2018
+[16032004.901630] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+[16032005.511476] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+^Sun Mar 11 04:31:01 CST 2018
+[16032739.677005] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+^Sun Mar 11 04:43:02 CST 2018
+[16033404.906898] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+^Sun Mar 11 04:54:02 CST 2018
+[16033941.299415] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+^Sun Mar 11 05:03:01 CST 2018
+[16034569.787045] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+^Sun Mar 11 05:13:01 CST 2018
+[16035085.984362] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+[16035086.594218] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+^Sun Mar 11 05:22:02 CST 2018
+[16035125.498971] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+[16035126.108827] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+^Sun Mar 11 05:23:01 CST 2018
+[16035470.257032] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+^Sun Mar 11 05:28:01 CST 2018
+[16035760.899954] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+[16035761.509797] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+^Sun Mar 11 05:33:02 CST 2018
+[16035919.390289] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+[16035920.000145] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+^Sun Mar 11 05:36:01 CST 2018
+[16036144.809713] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+[16036145.419568] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+^Sun Mar 11 05:40:01 CST 2018
+[16036681.032269] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+^Sun Mar 11 05:49:01 CST 2018
+[16037043.843041] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+[16037044.452896] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+^Sun Mar 11 05:55:02 CST 2018
+[16037557.258027] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+[16037557.867878] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+^Sun Mar 11 06:03:01 CST 2018
+[16037715.958303] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+^Sun Mar 11 06:07:02 CST 2018
+[16038165.625434] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+^Sun Mar 11 06:13:01 CST 2018
+[16038516.190114] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+^Sun Mar 11 06:19:01 CST 2018
+[16038971.148987] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+[16038971.758841] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+^Sun Mar 11 06:27:01 CST 2018
+[16039454.433132] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+[16039455.042982] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+^Sun Mar 11 06:35:02 CST 2018
+[16039772.947427] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+[16039773.557283] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+^Sun Mar 11 06:40:01 CST 2018
+[16040143.514356] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+[16040144.124209] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+^Sun Mar 11 06:46:01 CST 2018
+[16040266.115217] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+^Sun Mar 11 06:48:01 CST 2018
+[16040516.963597] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+^Sun Mar 11 06:52:01 CST 2018
+[16041290.969644] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+[16041291.579498] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+^Sun Mar 11 07:05:01 CST 2018
+[16041687.841320] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+^Sun Mar 11 07:12:01 CST 2018
+[16041727.463904] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+[16041728.073758] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+^Sun Mar 11 07:13:01 CST 2018
+[16041872.657395] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+[16041873.267248] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+^Sun Mar 11 07:15:01 CST 2018
+[16042130.348151] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+[16042130.958005] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+^Sun Mar 11 07:19:02 CST 2018
+[16042468.262837] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+[16042468.872694] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+^Sun Mar 11 07:25:01 CST 2018
+[16042998.168897] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+^Sun Mar 11 07:34:01 CST 2018
+[16043418.699952] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+^Sun Mar 11 07:41:01 CST 2018
+[16043613.169734] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+[16043613.779588] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+^Sun Mar 11 07:44:01 CST 2018
+[16043719.656426] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+^Sun Mar 11 07:46:01 CST 2018
+[16044076.488620] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+^Sun Mar 11 07:52:01 CST 2018
+[16044617.931937] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+[16044618.541791] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+^Sun Mar 11 08:01:01 CST 2018
+[16044803.147918] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+[16044803.757771] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+^Sun Mar 11 08:04:01 CST 2018
+[16044909.854554] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+^Sun Mar 11 08:07:02 CST 2018
+[16045200.061582] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+[16045200.671439] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+^Sun Mar 11 08:11:01 CST 2018
+[16045366.903931] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+^Sun Mar 11 08:13:01 CST 2018
+[16045578.270695] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+^Sun Mar 11 08:17:01 CST 2018
+[16045722.225484] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+^Sun Mar 11 08:19:02 CST 2018
+[16046025.893310] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+^Sun Mar 11 08:24:01 CST 2018
+[16046121.737530] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+[16046122.347390] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+^Sun Mar 11 08:26:01 CST 2018
+[16046571.632607] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+^Sun Mar 11 08:33:01 CST 2018
+[16046782.416514] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
+[16046783.026364] fiber_bypass line 3304: ERROR!	domestic_ioctl_cmd_execute	cmd=          <BP01_B_?>,ret=-108
